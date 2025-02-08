@@ -3,6 +3,8 @@
   margin-bottom: 64px;
   background-color: #FCFCFC;
   border-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .partners-container {
@@ -119,6 +121,7 @@
 
   .title {
     font-size: 20px;
+    padding-right: 20px;
   }
 
   .partners-grid {

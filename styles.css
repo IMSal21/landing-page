@@ -1,3 +1,4 @@
+/* Font Setup */
 @font-face {
   font-family: 'SCFHS Font';
   src: url('./assets/fonts/scfhs-font.woff2') format('woff2'),
@@ -12,6 +13,11 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
 }
 
 /* Base animation setup */
@@ -31,4 +37,17 @@ body {
 .fade-in:nth-child(1) { transition-delay: 0s; }
 .fade-in:nth-child(2) { transition-delay: 0.2s; }
 .fade-in:nth-child(3) { transition-delay: 0.4s; }
-.fade-in:nth-child(4)
+.fade-in:nth-child(4) { transition-delay: 0.6s; }
+.fade-in:nth-child(5) { transition-delay: 0.8s; }
+
+/* Hero Section Styles (for example) */
+#hero {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
