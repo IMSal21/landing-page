@@ -50,7 +50,7 @@ html {
     padding: 25em 10rem;
     position: relative;
     height: 100vh;
-    background-image: url('../assets/images/Asset\ 5@2x.png');
+    background-image: url('assets/images/Asset\ 5@2x.png');
     display: flex;
     align-items: center;
     justify-content: space-between;
